@@ -36,6 +36,3 @@ public class ArrayReverser {
         System.out.println();
     }
 }
-
-
-

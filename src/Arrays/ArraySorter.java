@@ -13,7 +13,7 @@ public class ArraySorter {
         printArray(numbers);
     }
 
-    private static void bubbleSort(int[] array) {
+    static void bubbleSort(int[] array) {
         int n = array.length;
 
         for (int i = 0; i < n - 1; i++) {
@@ -34,5 +34,3 @@ public class ArraySorter {
         }
     }
 }
-
-

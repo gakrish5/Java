@@ -27,4 +27,3 @@ public class MinMaxFinder {
         System.out.println("Largest number  : " + max);
     }
 }
-
