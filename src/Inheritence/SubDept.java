@@ -1,7 +1,8 @@
 package Inheritence;
 
-class SubDept extends Department{
+class SubDept extends Department {
     private int departmentSize;
+
     public SubDept(int departmentSize) {
         this.departmentSize = departmentSize;
     }

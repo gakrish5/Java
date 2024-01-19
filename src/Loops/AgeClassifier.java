@@ -1,6 +1,7 @@
 package Loops;
 
 import java.util.Scanner;
+
 public class AgeClassifier {
     private static void classifyPerson(int age) {
         if (age < 13) {
