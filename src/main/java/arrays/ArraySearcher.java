@@ -11,7 +11,7 @@ public class ArraySearcher {
         ArraySorter.bubbleSort(numbers);
         System.out.println("\nSorted Array  :");
         printArray(numbers);
-        
+
         int index = binarySearch(numbers, target);
 
         if (index != -1) {

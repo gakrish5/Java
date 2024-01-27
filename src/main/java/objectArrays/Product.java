@@ -16,6 +16,25 @@ class Product implements Comparable<Product> {
 
     // Getter methods
 
+    // Main method for testing
+    public static void main(String[] args) {
+        List<Product> productList = new ArrayList<>();
+
+        // Adding products to the list
+        productList.add(new Product(2.5, 25.99, 1));
+        productList.add(new Product(1.8, 19.99, 2));
+        productList.add(new Product(3.0, 34.99, 3));
+
+        // Sorting the list of products based on price
+        Collections.sort(productList);
+
+        // Displaying the sorted list
+        System.out.println("Sorted Products based on Price:");
+        for (Product product : productList) {
+            System.out.println(product);
+        }
+    }
+
     public double getWeight() {
         return weight;
     }
@@ -39,24 +58,5 @@ class Product implements Comparable<Product> {
     @Override
     public String toString() {
         return "Product [id=" + id + ", weight=" + weight + ", price=" + price + "]";
-    }
-
-    // Main method for testing
-    public static void main(String[] args) {
-        List<Product> productList = new ArrayList<>();
-
-        // Adding products to the list
-        productList.add(new Product(2.5, 25.99, 1));
-        productList.add(new Product(1.8, 19.99, 2));
-        productList.add(new Product(3.0, 34.99, 3));
-
-        // Sorting the list of products based on price
-        Collections.sort(productList);
-
-        // Displaying the sorted list
-        System.out.println("Sorted Products based on Price:");
-        for (Product product : productList) {
-            System.out.println(product);
-        }
     }
 }
