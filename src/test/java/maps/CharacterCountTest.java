@@ -1,4 +1,4 @@
-package collections;
+package maps;
 
 import org.junit.jupiter.api.Test;
 
