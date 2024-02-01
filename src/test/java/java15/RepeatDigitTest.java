@@ -11,31 +11,31 @@ public class RepeatDigitTest {
 
     @Test
     public void testGetRepeatNumWithNoRepeats() {
-        RepeatDigits repeatDigits = new RepeatDigits();
+        RepeatDigit repeatDigits = new RepeatDigit();
         assertEquals(new ArrayList<Integer>(), repeatDigits.getRepeatNum(12345));
     }
 
     @Test
     public void testGetRepeatNumWithRepeats() {
-        RepeatDigits repeatDigits = new RepeatDigits();
+        RepeatDigit repeatDigits = new RepeatDigit();
         assertEquals(Arrays.asList(1, 2, 3), repeatDigits.getRepeatNum(112233));
     }
 
     @Test
     public void testGetRepeatNumWithRepeatedZero() {
-        RepeatDigits repeatDigits = new RepeatDigits();
+        RepeatDigit repeatDigits = new RepeatDigit();
         assertEquals(List.of(0), repeatDigits.getRepeatNum(100200));
     }
 
     @Test
     public void testGetRepeatNumWithNegativeNumbers() {
-        RepeatDigits repeatDigits = new RepeatDigits();
+        RepeatDigit repeatDigits = new RepeatDigit();
         assertEquals(List.of(9), repeatDigits.getRepeatNum(-99999));
     }
 
     @Test
     public void testGetRepeatNumWithMixedNumbers() {
-        RepeatDigits repeatDigits = new RepeatDigits();
+        RepeatDigit repeatDigits = new RepeatDigit();
         assertEquals(Arrays.asList(1, 2, 3), repeatDigits.getRepeatNum(123123));
     }
 }
