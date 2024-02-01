@@ -1,4 +1,4 @@
-package java15;
+package additional;
 
 public class StringRotation {
     public boolean isRotation(String str1, String str2) {

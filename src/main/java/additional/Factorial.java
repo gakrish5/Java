@@ -1,4 +1,4 @@
-package java15;
+package additional;
 
 public class Factorial {
     public static int FactNum(int num){

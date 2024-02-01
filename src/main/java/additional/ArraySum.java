@@ -1,4 +1,4 @@
-package java15;
+package additional;
 
 public class ArraySum {
     public static int calculateSum(int[] array) {

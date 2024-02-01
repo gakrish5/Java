@@ -1,4 +1,4 @@
-package java15;
+package additional;
 
 public class Palindrome {
     // Static method to check if a number is a palindrome

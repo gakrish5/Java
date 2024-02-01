@@ -1,7 +1,6 @@
-package java15;
+package additional;
 
 import java.util.Map;
-
 import java.util.*;
 
 public class HashMapSorter {

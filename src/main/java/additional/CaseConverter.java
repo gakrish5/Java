@@ -1,4 +1,4 @@
-package java15;
+package additional;
 
 public class CaseConverter {
     public String convertCase(String input){
