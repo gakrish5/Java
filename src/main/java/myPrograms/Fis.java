@@ -1,4 +1,4 @@
-package practise;
+package myPrograms;
 
 import arrayList.Student;
 

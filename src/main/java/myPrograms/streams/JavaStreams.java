@@ -1,4 +1,4 @@
-package practise.streams;
+package myPrograms.streams;
 
 import java.lang.String;
 import java.util.Arrays;

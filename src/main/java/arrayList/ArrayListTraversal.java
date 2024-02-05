@@ -10,7 +10,6 @@ public class ArrayListTraversal {
             String element = stringList.get(i);
             // Do something with the element
             System.out.println(element);
-
         }
     }
 

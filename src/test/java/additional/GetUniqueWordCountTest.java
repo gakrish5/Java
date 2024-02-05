@@ -1,4 +1,4 @@
-package java15;
+package additional;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -22,7 +22,7 @@ public class GetUniqueWordCountTest {
 
     @Test //GetUniqueCountWithSpecialCharacters
     public void test4() {
-        assertEquals(6, GetUniqueWordCount.GetUniqueCount("Hello, world! This is a test. Hello, world!"));
+        assertEquals(6, GetUniqueWordCount.GetUniqueCount("Hello, world! This is a test world#. Hello, world!"));
     }
 
     @Test //GetUniqueCountWithNumbers

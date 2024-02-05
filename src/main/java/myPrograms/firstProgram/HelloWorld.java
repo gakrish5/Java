@@ -1,4 +1,4 @@
-package practise.firstProgram;
+package myPrograms.firstProgram;
 
 public class HelloWorld {
     public static void main(String[] args) {

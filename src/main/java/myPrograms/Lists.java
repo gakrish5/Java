@@ -1,4 +1,4 @@
-package practise;
+package myPrograms;
 
 public class Lists {
     public static void main(String[] args){
