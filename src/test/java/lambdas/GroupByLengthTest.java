@@ -16,8 +16,8 @@ public class GroupByLengthTest {
         List<String> input1 = Arrays.asList("apple", "banana", "orange", "grape");
         Map<Integer, List<String>> result1 = lengthGrouper.groupByLength(input1);
         assertEquals(2, result1.size());
-        assertEquals(Arrays.asList("grape"), result1.get(5));
-        assertEquals(Arrays.asList("apple", "banana", "orange"), result1.get(6));
+        assertEquals(Arrays.asList("apple", "grape"), result1.get(5));
+        assertEquals(Arrays.asList("banana", "orange"), result1.get(6));
 
         // Test case 2: Empty list
         List<String> input2 = Arrays.asList();
