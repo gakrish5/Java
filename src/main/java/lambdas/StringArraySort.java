@@ -9,7 +9,9 @@ public class StringArraySort {
 
         // Sorting based on length in ascending order, then by last character in descending order
         Arrays.sort(sortedArray, (s1, s2) ->
-                s1.length() != s2.length() ? s1.length() - s2.length() : s2.charAt(s2.length() - 1) - s1.charAt(s1.length() - 1));
+                s1.length() != s2.length() ?
+                        s1.length() - s2.length() :
+                        s2.charAt(s2.length() - 1) - s1.charAt(s1.length() - 1));
 
         // Print the sorted array
         Arrays.stream(sortedArray).forEach(System.out::println);
